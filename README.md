@@ -1,16 +1,20 @@
-# alisgidis
+# FingerBot
 
-A new Flutter project.
+This application, developed for the Fibabanka Hackathon, won the Special Jury Award! 🏆✨ Built for the Alışgidiş mobile app, the chatbot—FingerBot—helps users find products by describing what they need, and the LLM-Agent recommends relevant options. 💡 FingerBot can discuss each product's pros and cons, offering insights to help users make informed decisions. 💬 Most of the code and infrastructure are hosted within AWS services. ☁️ For further details, please refer to the [Presentation](https://www.canva.com/design/DAGU_mGCJg8/wl6f2jP_gBBnEi6d1pOeWg/edit?utm_content=DAGU_mGCJg8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton). 📑
 
-## Getting Started
+## 🌟 Features
+- **Product Recommendations:** Offers relevant product options based on natural language descriptions.
+- **Pro and Con Analysis:** Engages in discussions on product benefits and drawbacks.
+- **Personalization:** Tailored suggestions based on user interaction and history.
+- **Cloud Integration:** Built on AWS services for scalability and reliability.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Technologies
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Backend**: AWS API Gateway
+- **AI**: Claude 3.5 Sonnet
+- **Embedding**: Cohere
+- **Database**: S3 & DynomoDB
+- **Frontend**: Flutter
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
